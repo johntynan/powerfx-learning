@@ -1,1 +1,62 @@
-.devcontainer
+# -----------------------------
+# Power Fx / Power Platform CLI
+# -----------------------------
+
+# Solution unpacking artifacts
+*.zip
+*.cab
+
+# PAC authentication cache
+pac-auth.json
+pac-auth-*.json
+
+# PAC logs
+pac*.log
+
+# Canvas app unpacked artifacts that regenerate
+**/Src/ControlTemplates/*
+**/Src/Assets/*.png
+**/Src/Assets/*.jpg
+**/Src/Assets/*.svg
+
+# Node modules (if using Power Platform custom controls)
+node_modules/
+
+# -----------------------------
+# VS Code / Codespaces
+# -----------------------------
+
+# Local VS Code settings (do not sync)
+.vscode/
+
+# Codespaces machine-level caches
+.history/
+*.code-workspace
+
+# -----------------------------
+# Python (if using Python tools in Codespaces)
+# -----------------------------
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -----------------------------
+# Environment / Secrets
+# -----------------------------
+
+.env
+*.env
+secrets.json
+
+# -----------------------------
+# OS
