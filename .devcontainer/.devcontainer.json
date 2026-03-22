@@ -1,0 +1,8 @@
+{
+  "name": "Power Fx Learning",
+  "image": "mcr.microsoft.com/powershell",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "postCreateCommand": "pwsh -Command \"Install-Module -Name Microsoft.PowerApps.CLI -Force\""
+}
